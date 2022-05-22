@@ -24,7 +24,7 @@ class Book:
 
 book_base = shelve.open(r'database/book_base') # open storage when save all information about books
 
-print("HELPER BUCHLESER".center(32))
+print("HELFER BUCHLESER".center(32))
 print(f"Deine Bibliotek hat: {list(book_base)}")
 user = input("Buchtitel eingeben: ").rstrip()
 
